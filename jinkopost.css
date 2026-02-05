@@ -1,0 +1,75 @@
+.jinko-post {
+width: 530px; 
+margin-top: 40px;
+border: 1px solid #89857e;
+margin-bottom: -50px;
+border-radius: 19px;
+}
+.jinko-tit {
+font-family: "DM Serif Display", serif; 
+font-size: 34px;
+margin: 0 auto;
+font-weight: 900;
+color: #3f3f3f; 
+text-transform: uppercase;
+letter-spacing: 4px; 
+text-align: center;
+margin-top: 80px; margin-left: 8px;
+}
+.jinko-text {
+width: 443px;
+font-family: "Montserrat", sans-serif; 
+text-align: justify; 
+font-size: 13px; 
+line-height: 135%;
+color: #454545; 
+margin: 0 auto; 
+background:transparent;
+padding: 32px 32px; 
+border-radius: 15px;
+} 
+.jinko-tit2 {
+font-family:"Cutive Mono", monospace;
+font-size: 11px; 
+color: #000000;
+letter-spacing: 1px;
+text-align: center; 
+margin-top: 11px; 
+width: 400px;
+} 
+.jinko-foto {
+text-align: center;
+width: 250px;
+} 
+.jinko-foto img {
+margin: 0px 18px; 
+width: 200px; 
+height: 200px; 
+object-position: center;
+overflow:hidden; 
+outline: 1px solid #89857e;
+border: 7px solid rgb(0 0 0 / 0%);
+margin-left: -92px; 
+margin-top: 38px;
+float: left;
+object-fit: cover;
+-webkit-filter: grayscale(100%);
+-webkit-transition: all 1.5s ease;
+-webkit-backface-visibility: hidden;
+}
+.jinko-foto img:hover {
+filter: none; 
+-webkit-filter: grayscale(0%);
+}
+.jinkopost-info {
+text-align: center; 
+width: 340px; 
+margin: auto; 
+padding: 2px 33px; 
+background: transparent; 
+font-family: "Montserrat", sans-serif;
+font-size: 8px; color: #414141; 
+font-weight: 500;
+letter-spacing: 1px;
+text-transform: uppercase;
+}
